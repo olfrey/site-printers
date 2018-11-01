@@ -163,20 +163,18 @@
   .text {
     padding-top: 30px;
     padding-bottom: 30px; }
-  .contacts {
-    padding-top: 30px; }
-    .contacts__data {
-      padding-top: 30px;
-      padding-bottom: 30px; }
-    .contacts__title {
-      margin-bottom: 25px; }
-    .contacts__icon {
-      width: 30px;
-      height: 30px; }
-      .contacts__icon img {
-        width: 13px; }
-    .contacts__subtitle {
-      font-size: 20px; } }
+  .contacts__data {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .contacts__title {
+    margin-bottom: 25px; }
+  .contacts__icon {
+    width: 30px;
+    height: 30px; }
+    .contacts__icon img {
+      width: 13px; }
+  .contacts__subtitle {
+    font-size: 20px; } }
 
 @media screen and (max-width: 767px) {
   .case {

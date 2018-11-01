@@ -1,35 +1,319 @@
+@media screen and (max-width: 1245px)
+	.reviews
+		&__list
+			padding-left: 20px
+			padding-right: 20px
+			.slick-prev
+				left: 0
+			.slick-next
+				right: 0
+
 @media screen and (max-width: 1199px)
 	.case
 		width: 950px
-	
+
 	.hidden-lg
 		display: block
-	
+
 	.hidden-md
 		display: none
 
+	.panel
+		padding-top: 20px
+		padding-bottom: 20px
+		&_scroll
+			padding-top: 12px
+			padding-bottom: 12px
+		&__logo
+			font-size: 38px
+			margin-right: 0
 
-	
+		&__address
+			width: 220px
+			span
+				width: 155px
+
+		&__phone
+			a
+				font-size: 20px
+		&__contact
+			u
+				width: 34px
+				height: 34px
+				margin-right: 8px
+				img
+					width: 14px
+
+	.header
+		padding-top: 150px
+		padding-bottom: 70px
+		&__title
+			font-size: 38px
+			line-height: 42px
+			margin-bottom: 25px
+		&__arrows
+			&::before
+				left: 100px
+			&::after
+				right: 100px
+
+
+	.reviews
+		&__list
+			.slick-arrow
+				top: 120px
+
+		&__img
+			height: 280px
+			margin-bottom: 15px
+		&__company
+			font-size: 18px
+
+	.gift
+		&__content
+			padding-left: 40px
+
+		&__title
+			font-size: 30px
+			line-height: 34px
+			margin-bottom: 30px
+
+
+
+
+
+
 @media screen and (max-width: 992px)
 	.case
 		width: 750px
 
 	.hidden-md
-		display: block		
-	
+		display: block
+
 	.hidden-sm
 		display: none
 
+	.panel
+		color: #fff
+		position: absolute
+		background-color: transparent !important
+		padding-top: 20px !important
+		padding-bottom: 20px !important
+		.case
+			flex-direction: column
 
-	
+		&__logo
+			margin-bottom: 5px
+			font-size: 42px
+			text-align: center
+
+
+		&__contact
+			margin-top: 14px
+			max-width: 230px
+			width: 100%
+			margin-left: auto
+			margin-right: auto
+			justify-content: flex-start
+			u
+				margin-right: 12px
+
+
+		a
+			color: #fff
+		&__email
+			a
+				color: #fb5200
+
+
+	.header
+		background-position: center
+		padding-top: 240px
+		&__title
+			font-size: 32px
+			line-height: 38px
+		&__arrows
+			&::before
+				left: 0
+			&::after
+				right: 0
+
+	.vs
+		padding-top: 25px
+		padding-bottom: 15px
+		&__item
+			width: 100%
+			margin-bottom: 10px
+			&:last-of-type
+				margin-bottom: 0
+			&_false
+				&::after
+					display: none
+		&__title
+			padding-top: 0
+			padding-bottom: 10px
+		&__data
+			padding-top: 20px
+			padding-bottom: 15px
+			li
+				position: relative
+				text-align: left
+				padding-left: 32px
+				&::before
+					position: absolute
+					left: 0
+					top: -1px
+
+		&__icon
+			display: none
+
+	.reviews
+		padding-top: 30px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 25px
+
+
+	.title
+		font-size: 28px
+		line-height: 32px
+
+	.gift
+		padding-top: 35px
+		padding-bottom: 35px
+		&__wrap
+			padding-left: 0
+			padding-right: 0
+
+		&__img
+			display: none
+		&__content
+			width: 100%
+			padding-left: 0
+
+		&__title
+			text-align: center
+			margin-bottom: 25px
+
+		&__btn
+			margin-left: auto
+			margin-right: auto
+
+	.text
+		padding-top: 30px
+		padding-bottom: 30px
+
+	.contacts
+		padding-top: 30px
+		&__data
+			padding-top: 30px
+			padding-bottom: 30px
+
+		&__title
+			margin-bottom: 25px
+
+		&__icon
+			width: 30px
+			height: 30px
+			img
+				width: 13px
+
+		&__subtitle
+			font-size: 20px
+			mb4px
+
+
+
+
 @media screen and (max-width: 767px)
 	.case
 		width: 100%
 
 	.hidden-sm
 		display: block
-	
+
 	.hidden-xs
 		display: none
-	
 
+	.header
+		padding-bottom: 40px
+		&__title
+			font-size: 28px
+			line-height: 32px
+			margin-bottom: 30px
+		&__arrows
+			display: none
+		&__icons
+			margin-bottom: 30px
+			&-item
+				margin-left: 5px
+				margin-right: 5px
+				margin-bottom: 30px
+				width: 100%
+				&:last-of-type
+					margin-bottom: 0
+			&-img
+				height: auto
+
+	.btn
+		&_large
+			width: auto
+			height: auto
+			max-width: 450px
+			padding: 15px 10px
+			&::before, &::after
+				display: none
+			u
+				width: auto
+				height: auto
+				background-color: transparent !important
+				b
+					font-size: 20px
+				span
+					display: none
+		&_orange
+			&:hover
+				background-color: #fff
+
+	.reviews
+		.slick-prev
+			left: 5px
+		.slick-next
+			right: 5px
+		.slick-arrow
+			top: 130px
+		&__img
+			width: 220px
+			height: 320px
+			margin-left: auto
+			margin-right: auto
+
+	.title
+		font-size: 24px
+		line-height: 30px
+
+	.contacts
+		&__item
+			width: 100%
+			margin-bottom: 25px
+			&:last-of-type
+				margin-bottom: 0
+		&__map
+			&-wrap
+				height: 300px
+
+		&__icon
+			margin-bottom: 8px
+		&__subtitle
+			margin-bottom: 6px
+			font-size: 18px
+
+
+
+	.footer
+		&__col
+			width: 100%
+			margin-bottom: 10px
+			text-align: center
+			&:last-of-type
+				margin-bottom: 0

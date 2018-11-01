@@ -774,6 +774,27 @@ input, .btn, .slick-slide, textarea {
   .footer__dev {
     text-align: right; }
 
+.popup {
+  display: none;
+  font-family: "MuseoCyrl", sans-serif; }
+  .popup_large {
+    width: 1140px; }
+  .popup__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700; }
+  .popup__wrap {
+    max-height: 400px; }
+  .popup__text h2 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+  .popup__text h3 {
+    font-size: 18px;
+    font-size: 10px; }
+  .popup__text p {
+    margin-bottom: 15px; }
+
 @-webkit-keyframes pulse1 {
   0% {
     opacity: 0; }
